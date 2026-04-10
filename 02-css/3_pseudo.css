@@ -1,0 +1,13 @@
+h3:hover{
+    color: chartreuse;
+}
+button:active{
+    background-color: palevioletred;
+}
+p:active{
+    color: darkmagenta;
+}
+input[type="radio"]:checked + label{
+    color: rgb(165, 42, 116);
+   
+}

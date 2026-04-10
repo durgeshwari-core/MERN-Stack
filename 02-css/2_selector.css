@@ -1,0 +1,52 @@
+
+/* universal selector */
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* element selector */
+h1{
+    color: rebeccapurple;
+}
+h2,h3{
+    color: palegreen;
+}
+/* id seletor */
+#login{
+    background-color: yellow;
+}
+#signup{
+    background-color: red;
+}
+/* class selector */
+.follow{
+    background-color: cadetblue;
+}
+.upvote{
+    background-color: aqua;
+}
+/* decendennt selector= used to select any child class in a parent class */
+nav a{
+    color: hotpink;}
+/* or*/
+ .follow{
+    background-color: crimson;
+}
+span .upvote{
+    color: darkviolet;
+}
+/* Attribute Selector */
+input[type="text"]{
+    color:blue;
+}
+input[type]{
+    border-color: bisque;
+}
+/* COMBINATORS */
+/* siblng combinator */
+p + h3 {
+    text-decoration: underline;
+}
+/* child combinator */
+span>button{
+    text-decoration-line: line-through;
+}
