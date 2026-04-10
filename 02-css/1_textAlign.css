@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+   
+}
+p{
+    text-align: center;
+    font-weight: bold;
+}
+div{
+    text-align: right;
+}
+
+p{
+    
+    text-decoration: blue overline;
+    line-height: 1.5;
+    letter-spacing: 20px;
+    font-size: 10px;
+}
+
+div{
+        text-decoration: blue underline;}
+    
+h4{
+    text-decoration:  white line-through;
+    line-height: normal;}
+    
+
+  /* To remove any text decoration none is used  */
+a{
+    text-decoration: none;
+}
