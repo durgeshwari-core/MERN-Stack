@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Card with Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-purple-200 via-indigo-200 to-pink-200 min-h-screen flex items-center justify-center p-4">
+    <div class="max-w-sm w-full">
+        <article class="bg-gradient-to-br from-purple-50 via-purple-100 to-indigo-50 rounded-2xl shadow-2xl overflow-hidden border border-purple-200">
+            <div class="p-6">
+                <div class="flex items-center gap-4">
+                    <img class="w-20 h-20 rounded-full object-cover ring-4 ring-purple-300" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=200&q=80" alt="User avatar">
+                    <div>
+                        <h1 class="text-2xl font-semibold text-purple-900">Jane Doe</h1>
+                        <p class="text-sm text-purple-600">Product Designer</p>
+                        <p class="text-sm text-purple-600">jane.doe@example.com</p>
+                    </div>
+                </div>
+                <div class="mt-5 space-y-3">
+                    <p class="text-purple-700 text-sm">Bio: Passionate about building delightful interfaces and crafting meaningful user experiences. Lover of coffee, design systems, and clean code.</p>
+                    <ul class="grid grid-cols-3 gap-2 text-center text-xs text-purple-700">
+                        <li class="px-2 py-1 rounded-lg bg-purple-100">UI/UX</li>
+                        <li class="px-2 py-1 rounded-lg bg-purple-100">Figma</li>
+                        <li class="px-2 py-1 rounded-lg bg-purple-100">React</li>
+                    </ul>
+                </div>
+
+                <div class="mt-6 flex gap-3">
+                    <button class="flex-1 py-2 rounded-lg text-white bg-purple-600 hover:bg-purple-700 transition">Message</button>
+                    <button class="flex-1 py-2 rounded-lg text-purple-600 border border-purple-600 hover:bg-purple-50 transition">Follow</button>
+                </div>
+            </div>
+        </article>
+    </div>
+
+    <script src="apis.js"></script>
+</body>
+</html>
