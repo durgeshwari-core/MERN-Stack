@@ -1,0 +1,8 @@
+div{
+    height: 300px;
+    width: 250px;
+   background-image:url("https://cdn.firstcry.com/education/2022/08/24145942/Twinkle-Twinkle-Little-Star-Nursery-Rhyme.jpg") ;
+   background-size:cover ;
+   color: rgb(156, 12, 132);
+   font-size: larger;
+}
