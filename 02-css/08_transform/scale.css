@@ -1,0 +1,9 @@
+h1{
+    background-color: plum;
+    transform: scale(0.5);
+}
+/* translate */
+h3{
+    background-color: yellowgreen;
+    transform: scale(0.5,1.5);
+}
