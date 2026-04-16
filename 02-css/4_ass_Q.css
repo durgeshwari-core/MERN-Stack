@@ -1,0 +1,17 @@
+#maintopic{
+    color: blue;
+}
+*{
+    text-align: center;
+}
+h1,h3{
+    font-family: Georgia ;
+}
+.white{
+    color: white;
+    background-color: cornflowerblue;
+}
+label,button{
+    background-color: purple;
+    color: azure;
+}
