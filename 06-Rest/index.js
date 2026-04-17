@@ -11,7 +11,7 @@ app.set("view engine", "ejs");
 
 app.set(express.static(path.join(__dirname, "public")));
 
-let post = {
+let post = [{
     username: "Shreya",
     title: "My First Post",
 },
@@ -22,10 +22,10 @@ let post = {
 {
     username: "apsara",
     title: "unltra pro",
-}
+}];
 
 app.get("/", (req, res) => {
-    res.send("Welcome to the REST API");
+    res.render("index");
 });
 
 app.listen(port, () => {
