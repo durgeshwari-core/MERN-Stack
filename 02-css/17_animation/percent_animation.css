@@ -1,0 +1,16 @@
+.animation{
+    animation: anie 1s ease-out 3s infinite  reverse ;
+}
+
+@keyframes anie {
+    0%{
+        background-color: yellow;
+    }
+    50%{
+        background-color: rgb(255, 102, 47);
+    }
+    100%{
+        background-color: blue;
+    }
+    
+}

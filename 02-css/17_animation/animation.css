@@ -1,0 +1,26 @@
+.animation{
+    /* height: 100px;
+    width: 300px; */
+    
+    /* animation-name: shreyaAnimate;
+    animation-duration: 3s;
+    animation-timing-function: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal; */
+    /* shorthand */
+    animation: shreyaAnimate 4s ease-in 0s infinite normal;
+}
+
+@keyframes shreyaAnimate {
+    from{
+        font-size: 10px;
+        background-color: yellow;
+        border: 0;
+    }
+    to{
+        font-size: 100px;
+        background-color: greenyellow;
+        border: 20px dotted green;
+    }
+    
+}
