@@ -1,0 +1,11 @@
+h1{
+    background-color: powderblue;
+    border: 2px solid blue;
+}
+@media (max-width:400px){
+   h1{
+    background-color: purple;
+    border: 7px double palegreen;
+   }
+    
+}
