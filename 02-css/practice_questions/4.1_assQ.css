@@ -1,0 +1,11 @@
+button:hover{
+    background-color: yellow;
+    color: blue;
+}
+p::first-letter{
+    color: rgb(228, 41, 41);
+}
+
+label:checked{
+   color: green;
+}
