@@ -1,0 +1,26 @@
+#alphabet{
+    height: 400px;
+    width: 400px;
+    border: 2px solid aqua;
+    border-radius: 15px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+
+#alphabet div{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color:gray ;
+    font-size: 50px;
+    border-radius: 10px;
+   border:2px solid black;
+   text-align: center;
+    
+    
+ }

@@ -1,0 +1,20 @@
+.loader {
+    border: 20px solid whitesmoke;
+    border-top: 20px solid rgb(32, 119, 218);
+    border-radius: 50%;
+    width: 50vw;
+    height: 50vh;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        /*Setrotationto0degrees*/
+         transform: rotate(0deg); 
+    }
+
+    100% {
+        /*Setrotationto360degrees*/
+        transform: rotate(360deg); 
+    }
+}
