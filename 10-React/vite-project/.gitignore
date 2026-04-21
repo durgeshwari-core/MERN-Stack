@@ -26,5 +26,4 @@ eslint.config.js
 package-lock.json
 package.json
 vite.config.js
-node_modules
-public
+node_modules/
