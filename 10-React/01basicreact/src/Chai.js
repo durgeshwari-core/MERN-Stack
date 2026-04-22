@@ -1,7 +1,7 @@
 function Chai() {
     return (
         <>
-            <h1>Chai is chai</h1> 
+            <h3>Chai is chai</h3> 
             
         </>
     );
