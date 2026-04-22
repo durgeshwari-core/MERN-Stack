@@ -1,8 +1,19 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import Chai from './Chai.jsx'
-createRoot(document.getElementById('root')).render(
- 
-    <Chai />
+import App from './App.jsx'
 
+function MyApp(){
+    return(
+        <div>
+            <h1>
+                custom app
+            </h1>
+        </div>
+    )
+}
+
+ReactDOM.createRoot(document.getElementById('root')).
+render(
+    <MyApp/>
 )
+
