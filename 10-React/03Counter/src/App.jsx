@@ -6,16 +6,17 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
+  let counter =5;
 
   return (
     <>
     <h1>shreya</h1>
     <h3> hey!! how are you?</h3>
-    <h5>counter:4</h5>
+    <h5>counter:{counter}</h5>
     <button> ADD</button>
     <br />
     <button> REMOVE</button>
-    
+
     </>
   )
 }
