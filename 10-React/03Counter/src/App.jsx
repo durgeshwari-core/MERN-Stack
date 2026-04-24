@@ -5,11 +5,15 @@ import heroImg from './assets/hero.png'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-  let counter =5;
+  let [counter, setCounter] = useState(12)
+  // let counter =5;
 
   const addValue = () =>{
-    console.log("add avlue ",Math.random());
+   
+   setCounter(counter);
+
+   
+
   }
 
   return (
@@ -19,7 +23,8 @@ function App() {
     <h5>counter:{counter}</h5>
     <button onClick={addValue}> ADD</button>
     <br />
-    <button> REMOVE</button>
+    <button > {counter}REMOVE</button>
+    <p>{counter}</p>
 
     </>
   )
