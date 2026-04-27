@@ -1,16 +1,15 @@
 import React from "react";
+import Card from "./components/cards";
 
 const App = () => {
   return (
     <>
-    <div id = "father">
-      <h1 id = "child1">My React App</h1>
-      <h2 id ="child2">Welcome to My App</h2>
+    <div className="shreya">
+      <h1>Shreya's React App</h1>
     </div>
-    <div id="mother"> </div>
+      <h1>React Components</h1>
+      <Card />
     </>
-
   );
 };
 
-export default App;
